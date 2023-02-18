@@ -1,0 +1,513 @@
+* {
+    margin: 0;
+    padding: 0;
+    /* overflow-x: hidden; */
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+}
+
+.container {
+    width: 1170px;
+    margin: 0 auto;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.7;
+    color: #000;
+}
+
+img {
+    max-width: 100%;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-weight: 700;
+
+}
+
+
+.header-area {
+    margin: 60px 0;
+    text-align: center;
+}
+
+.site-title h1 {
+    font-size: 60px;
+    text-transform: uppercase;
+    font-weight: 900;
+}
+
+.site-desc h2 {
+    font-size: 24px;
+}
+
+.site-desc {
+    margin-top: 20px;
+}
+
+.middle-area {
+    margin: 50px 0;
+    display: grid;
+}
+
+
+.image-section {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    /* grid-template-rows: repeat(2, 1fr); */
+    grid-column-gap: 30px;
+    grid-row-gap: 30px;
+}
+
+
+
+.directory-nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+
+.directory-nav li {
+    display: inline-block;
+    margin-right: 30px;
+}
+
+.directory-nav li a {
+    display: block;
+    text-decoration: none;
+    color: #000;
+    font-size: 20px;
+    text-transform: uppercase;
+    font-weight: 700;
+    /* padding: 15px 0px; */
+}
+
+.directory-nav ul li a:hover {
+    color: #444;
+}
+
+
+.main-menu {
+    margin-bottom: 100px;
+}
+
+.copyright-text {
+    text-align: center;
+    font-size: 20px;
+    text-transform: capitalize;
+}
+
+.copyright-text a {
+    text-decoration: none;
+    color: #000;
+    font-weight: 700;
+    margin-left: 8px;
+}
+
+.copyright-text p {
+    padding: 40px 0;
+}
+
+.footer-area {
+    margin-top: 100px;
+}
+
+.directory-page-content {
+    font-size: 20px;
+    margin-top: 35px;
+}
+
+.site-title a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.single-image-page {
+    height: 400px;
+    background-size: cover;
+    width: 100%;
+    background-position: center;
+}
+
+
+.directory-wp-allpost-area {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    /* grid-template-rows: repeat(2, 1fr); */
+    grid-column-gap: 30px;
+    grid-row-gap: 30px;
+}
+
+.directory-wp-single-post a {
+    font-size: 20px;
+    text-decoration: none;
+    color: #000;
+}
+
+.directory-wp-single-post p {
+    margin-top: 20px;
+}
+
+
+/* search */
+.directory-search-box {
+    margin-top: 50px;
+    text-align: center;
+}
+
+.directory-search-box .search-field {
+    width: 35%;
+    height: 50px;
+    padding: 20px;
+    border: 1px solid #000;
+}
+
+.directory-search-box .search-form {
+    width: 100%;
+    margin: 0 auto;
+}
+
+.directory-search-box .search-form {
+    position: relative;
+}
+
+.directory-search-box .search-submit {
+    /* position: absolute; */
+    height: 50px;
+    border-radius: 0;
+    border: 1px solid #000000;
+    padding-left: 20px;
+    /* line-height: 10px; */
+    background: #000;
+    color: #fff;
+    font-weight: bold;
+    padding-right: 20px;
+    margin-left: -4px;
+}
+
+.search-page-header {
+    margin-top: 50px;
+}
+
+.directory-search-box.search-margin-0 {
+    margin-top: 0;
+}
+
+.directory-search-box .search-field:focus-visible {
+    outline: 0;
+}
+
+.search-not-found {
+    margin-top: 50px;
+}
+
+
+/* Comments */
+
+/*=====================================
+ Comment Template CSS
+========================================*/
+
+.comments-area {
+    margin-top: 40px;
+}
+
+.comments-area h2.comments-title {
+    font-size: 25px;
+    margin-bottom: 20px;
+}
+
+.comment-list {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.comment-meta {
+    margin-bottom: 20px;
+}
+
+.comment-meta a {
+    color: #333;
+}
+
+.comment-meta img {}
+
+.comment-author.vcard {
+    position: relative;
+    padding-left: 50px;
+}
+
+.comment-author.vcard img {
+    position: absolute;
+    left: 0;
+    top: 5px;
+}
+
+.comment-metadata {
+    margin-left: 50px;
+}
+
+.comments-area table {
+    border-left: 1px solid #dddd;
+    border-bottom: 1px solid #ddd;
+    margin-bottom: 20px;
+}
+
+.comments-area table td,
+.comments-area table th {
+    border-right: 1px solid #ddd;
+    border-top: 1px solid #ddd;
+    padding: 10px;
+}
+
+.comments-area th {
+    background: #278cc1;
+    color: #fff;
+}
+
+.comments-area dd {
+    margin-bottom: 15px;
+}
+
+.comments-area .comments-content ul,
+.comments-area .comments-content ol {
+    padding-left: 15px;
+}
+
+.comments-area .comment-content ul,
+.comments-area .comment-content ol {
+    padding-left: 15px;
+}
+
+.comment-reply-link {
+    background: #1e71f9;
+    display: inline-block;
+    padding: 5px 20px;
+    color: #fff;
+    border-radius: 5px;
+}
+
+.comment-list li.comment {
+    margin-bottom: 30px;
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 30px;
+}
+
+.comment-metadata {
+    font-size: 80%;
+}
+
+.comment-reply-link {
+    margin-top: 10px;
+}
+
+.comment-list li ol.children {
+    padding-left: 50px;
+    margin: 0;
+    list-style: none;
+    margin-top: 25px;
+}
+
+.comment-list li ol.children ol.children {
+    padding-left: 20px;
+}
+
+.comment-list li.comment:last-child {
+    border-bottom: 0px solid;
+    padding-bottom: 0;
+    margin-bottom: 0;
+}
+
+.comment-respond {
+    margin-top: 50px;
+}
+
+.comment-notes {
+    font-size: 90%;
+    margin-bottom: 40px;
+}
+
+.comment-form label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+.comment-form input,
+.comment-form textarea {
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.comment-form input[type=submit] {
+    width: auto;
+}
+
+
+/* my */
+input,
+textarea {
+    outline: 0;
+}
+
+.fn a {
+    font-size: 20px;
+    text-transform: capitalize;
+    /* margin-left: 30px; */
+}
+
+.directory-comments-area #comments {
+    border: 3px solid #ddd;
+    padding: 30px;
+}
+
+/* .directory-comments-area .comment-author.vcard img {
+    width: 70px;
+    height: 70px;
+}
+
+.directory-comments-area .comment-metadata {
+    margin-left: 80px;
+} */
+
+.directory-comments-area .comment-content p {
+    font-size: 20px;
+}
+
+
+.directory-comments-area input {
+    height: 50px;
+    padding-left: 20px;
+    padding-right: 20px;
+    max-width: 50%;
+}
+
+.directory-comments-area textarea {
+    height: 100px;
+    padding: 20px;
+    max-width: 50%;
+}
+
+#respond {
+    width: 100%;
+}
+
+#commentform {
+    width: 100%;
+}
+
+.directory-comments-area #wp-comment-cookies-consent {
+    width: 20px;
+    height: 20px;
+    /*   display: inline-block; */
+}
+
+
+
+.directory-comments-area .comment-form-cookies-consent label {
+    display: inline-block;
+}
+
+.directory-comments-area .form-submit input {
+    background: #000000;
+    border: 0;
+    color: #fff;
+    font-size: 20px;
+    display: inline-block;
+    transition: .4s;
+}
+
+.directory-comments-area .form-submit input:hover {
+    background: #1E71F9;
+
+}
+
+.directory-comments-area article {
+    border: 1px solid #ddd;
+    padding: 20px;
+    border-radius: 4px;
+}
+
+
+
+/* Medium Layout: 1280px. */
+
+/* @media only screen and (min-width: 992px) and (max-width: 1200px) {} */
+
+/* Tablet Layout: 768px. */
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    .container {
+        width: 100%;
+    }
+
+    body {
+        padding: 0 30px;
+    }
+
+    .image-section {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+/* Mobile Layout: 320px. */
+
+@media only screen and (max-width: 767px) {
+    .container {
+        width: 100%;
+
+    }
+
+    body {
+        padding: 0 30px;
+    }
+
+    .image-section,
+    .directory-wp-allpost-area {
+        grid-template-columns: repeat(1, 1fr);
+
+    }
+
+    .directory-nav li {
+        display: block;
+    }
+
+    .site-title h1 {
+        font-size: 40px;
+    }
+
+
+    .directory-comments-area textarea {
+
+        max-width: 85%;
+    }
+
+    .directory-comments-area input {
+
+        max-width: 85%;
+    }
+}
+
+/* Wide Mobile Layout: 480px. */
+
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+
+    .container {
+        width: 100%;
+    }
+}
